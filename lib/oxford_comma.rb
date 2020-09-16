@@ -1,6 +1,5 @@
 def oxford_comma(array)
     foods = ""
-    lab_array=[]
     if array.length == 1
       puts array[0]
     else
@@ -9,6 +8,7 @@ def oxford_comma(array)
          return "and " + word  
         else
           puts word + ","
+        end  
       end
     end
 end
