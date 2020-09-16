@@ -1,5 +1,6 @@
 def oxford_comma(array)
-    foods = "" 
+    foods = ""
+    foods<< word + ","
     if array.length == 1
       puts array[0]
     else
