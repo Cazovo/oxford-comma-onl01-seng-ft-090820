@@ -5,9 +5,9 @@ def oxford_comma(array)
     else
       array.each_with_index do |word, index|
         if index == (array.length - 1)
-         return "and " + word  
+         foods<< "and " + word 
         else
-           foods<< word + ","
+           foods<< word + ", "
         end  
       end
     end
