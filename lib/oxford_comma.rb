@@ -8,7 +8,7 @@ def oxford_comma(array)
         if index == (array.length - 1)
          return "and " + word  
         else
-           
+           foods<< word + ","
         end  
       end
     end
